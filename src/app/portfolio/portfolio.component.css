@@ -1,0 +1,67 @@
+.row {
+    margin: 10px -16px;
+  }
+
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+  }
+
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+
+  /* The "show" class is added to the filtered elements */
+  .show {
+  display: block;
+  }
+
+  /* Style the buttons */
+
+  h2 span
+  {
+    color:black;
+  }
+  .btn-group #btn1:hover{
+  background-color: #1CCDCA;
+  color:white;
+  }
+  .porto_full_desc .porto_meta {
+    position: absolute;
+    width: 100%;
+  }
+  .porto_full_desc .porto_meta{
+  transform: translateY(-50%) translateX(-50%);
+  color: #bfc6cd;
+    border: none;
+    text-align: center;
+  }
+  /* a{
+    text-decoration: none;
+  } */
+  #butt{
+    text-align: center;
+  }
+  /* .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+} */
